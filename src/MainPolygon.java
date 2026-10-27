@@ -8,5 +8,8 @@ public class MainPolygon {
 
         Polygon p = new Polygon(points);
         System.out.println(p);
+        System.out.println(p.getLength());
+        p.setOffset(5, 5);
+        System.out.println(p);
     }
 }
